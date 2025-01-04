@@ -1,0 +1,4 @@
+* source CA1-Q3-D
+R_R1         N00069 N00099  6  
+V_V1         N00069 0 20Vdc
+C_C         0 N00099  100u IC=0 

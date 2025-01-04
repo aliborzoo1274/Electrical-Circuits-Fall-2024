@@ -1,0 +1,14 @@
+* source CA1-Q1
+X_H2    I N03223 N03200 0 SCHEMATIC1_H2 
+R_R8         I N03306  1  
+R_R9         N03249 0  1  
+R_R10         N03306 N03249  1  
+E_E2         N03306 0 N03200 N03223 2
+R_R11         N03249 N03200  1  
+R_R12         N03223 N03200  1  
+V_V2         N03249 N03223 9Vdc
+
+.subckt SCHEMATIC1_H2 1 2 3 4  
+H_H2         3 4 VH_H2 2
+VH_H2         1 2 0V
+.ends SCHEMATIC1_H2

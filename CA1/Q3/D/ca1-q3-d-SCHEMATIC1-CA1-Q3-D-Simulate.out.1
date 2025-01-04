@@ -1,0 +1,41 @@
+
+**** 01/04/25 07:41:24 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-CA1-Q3-D-Simulate"  [ E:\UT Programming\Electrical-Circuits-Fall-2024\CA1\Q3\D\ca1-q3-d-SCHEMATIC1-CA1-Q3-D-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ca1-q3-d-SCHEMATIC1-CA1-Q3-D-Simulate.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ca1-q3-d-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ca1-q3-d-SCHEMATIC1.net ****
+* source CA1-Q3-D
+R_R1         N00069 N00099  6  
+V_V1         N00069 N00129 20Vdc
+C_C1         N00129 N00099  1e-4  
+
+**** RESUMING ca1-q3-d-SCHEMATIC1-CA1-Q3-D-Simulate.sim.cir ****
+.END
+
+ERROR -- Node N00069 is floating
+ERROR -- Node N00099 is floating
+ERROR -- Node N00129 is floating

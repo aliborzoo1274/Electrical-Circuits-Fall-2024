@@ -1,0 +1,67 @@
+(ExpressProject "CA1-Q2-D-Voltage_Source"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\ca1-q2-d-voltage_source.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\ca1-q2-d-voltage_source-schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\ca1-q2-d-voltage_source-schematic1-ca1-q2-d-voltage_source.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ca1-q2-d-voltage_source-schematic1-ca1-q2-d-voltage_source.sim"
+        (DisplayName "SCHEMATIC1-CA1-Q2-D-Voltage_Source")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "E:\UT Programming\Electrical-Circuits-Fall-2024\CA1\Q2\D\Voltage Source\ca1-q2-d-voltage_source.dsn")
+      (Path "Design Resources"
+         "E:\UT Programming\Electrical-Circuits-Fall-2024\CA1\Q2\D\Voltage Source\ca1-q2-d-voltage_source.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "E:\UT Programming\Electrical-Circuits-Fall-2024\CA1\Q2\D\Voltage Source\ca1-q2-d-voltage_source.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 381"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1236 52 472")
+        (Scroll "266 508")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "E:\UT PROGRAMMING\ELECTRICAL-CIRCUITS-FALL-2024\CA1\Q2\D\VOLTAGE SOURCE\CA1-Q2-D-VOLTAGE_SOURCE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

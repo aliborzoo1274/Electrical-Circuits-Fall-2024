@@ -1,0 +1,44 @@
+
+**** 01/04/25 00:32:30 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-CA1-Q3-C-Simulate"  [ E:\UT Programming\Electrical-Circuits-Fall-2024\CA1\Q3\C\ca1-q3-c-SCHEMATIC1-CA1-Q3-C-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ca1-q3-c-SCHEMATIC1-CA1-Q3-C-Simulate.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM RLval 0.5 50 0.5 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ca1-q3-c-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ca1-q3-c-SCHEMATIC1.net ****
+* source CA1-Q3-C
+R_R1         N00125 A  6  
+V_V1         N00125 0 20Vdc
+R_RL         0 A  {RLval}  
+.PARAM  RLval=0.5
+
+**** RESUMING ca1-q3-c-SCHEMATIC1-CA1-Q3-C-Simulate.sim.cir ****
+.END
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

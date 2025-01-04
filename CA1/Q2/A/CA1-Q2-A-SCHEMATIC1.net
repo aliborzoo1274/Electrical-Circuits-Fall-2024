@@ -1,0 +1,12 @@
+* source CA1-Q2-A
+R_R1         N00479 N00597  4  
+R_R2         N00421 N00597  1  
+R_R3         0 N00421  2  
+V_V2         N00361 0 8Vdc
+I_I1         N00421 N00479 DC 3Adc  
+X_H1    N00361 N00597 N00479 0 SCHEMATIC1_H1 
+
+.subckt SCHEMATIC1_H1 1 2 3 4  
+H_H1         3 4 VH_H1 3
+VH_H1         1 2 0V
+.ends SCHEMATIC1_H1

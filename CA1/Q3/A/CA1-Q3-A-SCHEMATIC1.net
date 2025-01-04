@@ -1,0 +1,12 @@
+* source CA1-Q3-A
+R_R1         N00113 VOC  2  
+I_I2         0 N01584 DC 5Adc  
+R_R3         0 VOC  6  
+E_E1         VOC N00113 N00113 0 2
+R_R4         N00113 0  4  
+I_I1         0 N00113 DC 5Adc  
+R_R8         0 N01576  6  
+R_R7         0 N01584  4  
+R_R5         N01576 0  2  
+E_E3         N01576 N01584 N01584 0 2
+R_R6         N01584 N01576  2  

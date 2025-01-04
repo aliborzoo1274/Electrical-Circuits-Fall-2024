@@ -1,0 +1,54 @@
+
+**** 01/03/25 21:46:44 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-CA1-Q3-A-Simulate"  [ E:\UT Programming\Electrical-Circuits-Fall-2024\CA1\Q3\A\ca1-q3-a-SCHEMATIC1-CA1-Q3-A-
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ca1-q3-a-SCHEMATIC1-CA1-Q3-A-Simulate.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ca1-q3-a-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ca1-q3-a-SCHEMATIC1.net ****
+* source CA1-Q3-A
+R_R1         N00113 VOC  2  
+I_I1         0 N01584 DC 5Adc  
+R_R3         0 VOC  6  
+E_E1         VOC N00113 N00113 0 2
+E_E2         N01576 N01584 N01584 0 2
+R_R4         N00113 0  4  
+R_R1         N01584 N01576  2  
+$
+ERROR -- Name "R_R1" is defined more than once
+I_I1         0 N00113 DC 5Adc  
+$
+ERROR -- Name "I_I1" is defined more than once
+R_R3         0 N01576  6  
+---------------$
+ERROR -- Expecting keyword STIMULUS, saw N01576.
+
+R_R5         N01576 0  2  
+R_R4         N01584 0  4  
+$
+ERROR -- Name "R_R4" is defined more than once
+
+**** RESUMING ca1-q3-a-SCHEMATIC1-CA1-Q3-A-Simulate.sim.cir ****
+.END
+

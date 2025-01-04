@@ -1,0 +1,56 @@
+(ExpressProject "CA1-Q2-D-Current_Source"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\ca1-q2-d-current_source.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\ca1-q2-d-current_source-schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\ca1-q2-d-current_source-schematic1-ca1-q2-d-current_source-simulate.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ca1-q2-d-current_source-schematic1-ca1-q2-d-current_source-simulate.sim"
+        (DisplayName "SCHEMATIC1-CA1-Q2-D-Current_Source-Simulate")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 377"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 0 570 -8 -31 104 1284 104 520")
+        (Scroll "517 284")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "E:\UT Programming\Electrical-Circuits-Fall-2024\CA1\Q2\D\Current Source\CA1-Q2-D-Current_Source.dsn")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

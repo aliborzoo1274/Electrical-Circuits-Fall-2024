@@ -1,0 +1,5 @@
+* source CA1-Q3-C
+R_R1         N00125 A  6  
+V_V1         N00125 0 20Vdc
+R_RL         0 A  {RLval}  
+.PARAM  RLval=0.5

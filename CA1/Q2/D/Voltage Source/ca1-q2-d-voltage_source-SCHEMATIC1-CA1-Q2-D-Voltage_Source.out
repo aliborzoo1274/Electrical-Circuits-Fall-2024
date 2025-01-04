@@ -1,0 +1,51 @@
+
+**** 01/03/25 19:59:08 ********* PSpice 9.2 (Mar 2000) ******** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-CA1-Q2-D-Voltage_Source"  [ E:\UT Programming\Electrical-Circuits-Fall-2024\CA1\Q2\D\Voltage Source\ca1-q2-d
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ca1-q2-d-voltage_source-SCHEMATIC1-CA1-Q2-D-Voltage_Source.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 0 10 0.5 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\ca1-q2-d-voltage_source-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING ca1-q2-d-voltage_source-SCHEMATIC1.net ****
+* source CA1-Q2-D-VOLTAGE_SOURCE
+R_R1         N00479 N00597  4  
+R_R2         N00421 N00597  1  
+I_I2         N00421 N00479 DC 3Adc  
+R_R3         0 N00421  2  
+X_H1    N00700 N00597 N00479 0 SCHEMATIC1_H1 
+V_V1         N00700 0 8Vdc
+
+.subckt SCHEMATIC1_H1 1 2 3 4  
+H_H1         3 4 VH_H1 3
+VH_H1         1 2 0V
+.ends SCHEMATIC1_H1
+
+**** RESUMING ca1-q2-d-voltage_source-SCHEMATIC1-CA1-Q2-D-Voltage_Source.sim.cir ****
+.END
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+
